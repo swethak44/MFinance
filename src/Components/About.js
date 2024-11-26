@@ -39,7 +39,7 @@ export default function About() {
                        </p>
                     </Col>
                     <Col lg={6}>
-                        <img className='d-block w-100' src={cimage} alt=' ' />
+                        <img className='d-block w-100'  src={cimage} alt=' ' />
                     </Col>
                 </Row>
             </Container>

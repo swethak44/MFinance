@@ -33,7 +33,7 @@ export default function Menu() {
                               </ul>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link text-black fw-semibold fs-5 " href="#">Contact</a>
+                              <a class="nav-link text-black fw-semibold fs-5 " href="/contact">Contact</a>
                           </li>
                           
                       </ul>
