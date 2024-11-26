@@ -63,8 +63,9 @@ h2{
     font-size: 15px;
     font-family: sans-serif;
     text-align: left;
+    padding-bottom: 10px;
 }
-.box button{
+/* .box button{
     border-radius: 25px;
     background-color: goldenrod;
     padding: 15px;
@@ -72,31 +73,12 @@ h2{
     border: none;
     margin: 0px 0px 10px 30px;
     
-}
+} */
 
 
 .section{
     background-color: #0492C2;
     min-height: 550px;
     margin-top: 30px;
+    padding-bottom: 15px;
 }
-/* footer{
-    background-color:#051094;
-    min-height: 550px;
-    margin-top: 40px;
-    
-}
-footer li{
-    padding: 5px;
-    text-align: left;
-}
-footer i{
-    margin-right: 10px;
-}
-.footsec{
-    background-color:#2f3ddc;
-    min-height: 250px;
-} */
-
- 
- 

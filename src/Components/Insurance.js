@@ -55,15 +55,34 @@ export default function Insurance() {
             <Container>
                 <Row>
                     <Col lg={12}>
-                    <div className='sbox'>
-
+                    <div className='boxsec'>
+                        <h2 className='p-3 mt-5'>What Medical Expenditures Are Covered Under Health Insurance?</h2>
+                        <p>
+                            A health insurance policy covers all medical expenses as per the terms and conditions mentioned in the policy documents. 
+                            But today, most health insurance plans cover hospitalization expenses including hospitalization, daycare treatments, medical tests, 
+                            ambulance services, specialist consultation charges, etc.
+                        </p>
+                        <ul>
+                            <li className='fw-medium fs-5'>Investment Planning Services</li>
+                            <p >
+                                Investment Planning Services are aimed at helping you create a robust investment portfolio that aligns with your risk tolerance, 
+                                time horizon, and financial objectives. Whether you're looking to invest in mutual funds, stocks, bonds, or other financial instruments,
+                                our expert advisors will guide you in making informed decisions to maximize your returns.
+                            </p>
+                            <li className='fw-medium fs-5'>Retirement Planning Services</li>
+                            <p>
+                                Planning for retirement is crucial to ensuring a comfortable and secure future. At Fincart, our Retirement Planning Services
+                                focus on creating a detailed plan that helps you accumulate the necessary funds for your post-retirement life. We consider factors such as 
+                                inflation, life expectancy, and your desired lifestyle to develop a strategy that ensures you won't outlive your savings.
+                            </p>
+                        </ul>
 
                     </div>
 
                     </Col>
                 </Row>
             </Container>
-            {/* <Container>
+            <Container>
                 <Row>
                     <h2 className='p-3 mt-5'>How to Determine the Right Health Insurance Coverage for You?</h2>
                     <Col lg={6}>
@@ -85,7 +104,7 @@ export default function Insurance() {
                         <img className='d-block w-100' src={himage} alt=' ' />
                     </Col>
                 </Row>
-            </Container> */}
+            </Container>
             
         </div>
     </div>
