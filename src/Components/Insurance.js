@@ -1,6 +1,7 @@
 import React from 'react';
 import './insurance.css';
 import { Container,Row,Col } from 'react-bootstrap';
+import himage from './imgs/himg.jpg';
 
 export default function Insurance() {
   return (
@@ -51,6 +52,40 @@ export default function Insurance() {
                     </Col> 
                 </Row>
             </Container>
+            <Container>
+                <Row>
+                    <Col lg={12}>
+                    <div className='sbox'>
+
+
+                    </div>
+
+                    </Col>
+                </Row>
+            </Container>
+            {/* <Container>
+                <Row>
+                    <h2 className='p-3 mt-5'>How to Determine the Right Health Insurance Coverage for You?</h2>
+                    <Col lg={6}>
+                        <p className='fs-6 fw-light' style={{ fontFamily: "sans-serif", textAlign: "left", padding: "20px", margin: "20px" }}>
+                            To understand the required amount, there are a few things to consider: your current age, your hospital preference,
+                            your & familys health condition, affordability, etc. Healthcare costs vary from one hospital to another due to status & facilities.
+                            However, our relationship managers structure the health insurance coverage with a very high hospitalization coverage with the least possible premium.
+                            Further, these help you save tax optimally under section 80D of the Income Tax Act.
+                        </p>
+                        <p className='fs-6 fw-light' style={{ fontFamily: "sans-serif", textAlign: "left", padding: "20px", margin: "20px" }}>
+                            To understand the required amount, there are a few things to consider: your current age, your hospital preference,
+                            your & familys health condition, affordability, etc. Healthcare costs vary from one hospital to another due to status & facilities.
+                            However, our relationship managers structure the health insurance coverage with a very high hospitalization coverage with the least possible premium.
+
+                        </p>
+
+                    </Col>
+                    <Col lg={6}>
+                        <img className='d-block w-100' src={himage} alt=' ' />
+                    </Col>
+                </Row>
+            </Container> */}
             
         </div>
     </div>
