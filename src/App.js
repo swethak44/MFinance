@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes,Route } from 'react-router-dom'
+import Menu from './Menu';
+import Footer from './Components/Footer';
+import Home from './Components/Home';
+import About from './Components/About';
+import MutualFunds from './Components/MutualFunds';
+import Insurance from './Components/Insurance';
 
-function App() {
+// import Home from './Pages/Home';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <BrowserRouter>
+    <Menu />
+    <div>
+      <Routes>
+        <Route path='/home' element={<Home />}></Route>
+        <Route path='/about' element={<About/>}></Route>
+        <Route path='/insurance' element={<Insurance/>}></Route>
+        <Route path='/mutualfunds' element={<MutualFunds/>}></Route>
 
-export default App;
+      </Routes>
+      
+      
+    </div>
+    <Footer />
+    </BrowserRouter>
+  )
+}
