@@ -35,3 +35,32 @@ p{
     position: relative;
     
 }
+.bgrnd{
+    background-color: #d8e0e3;
+    min-height: 550px;
+
+}
+.bgrnd h3{
+    color: rgb(28,104,137);
+    
+    padding: 20px;
+}
+
+
+.tbox{
+    height:450px;
+    width:350px;
+    background-color: white;
+    float: left;
+    margin-top: 50px;
+    align-items: center;
+  
+}
+.fbox{
+    height: 450px;
+    width:350px;
+    background-color: #051094;
+    float: left;
+    margin-top: 50px;
+   
+}
