@@ -1,6 +1,8 @@
 import React from 'react';
 import './contact.css';
-import { Container,Row,Col } from 'react-bootstrap';
+import { Row,Col, Container } from 'react-bootstrap';
+import kimage from './imgs/kimg.jpg';
+import Cards from './Cards';
 
 export default function Contact() {
   return (
@@ -18,9 +20,9 @@ export default function Contact() {
         <div className='bgrnd'>
           <div className="container">
             <Row>
-              <Col lg={10}>
+              <Col lg={7}>
               <div className='tbox'>
-                <h3 className='mt-5 p-5'> Get in Touch</h3>
+                <h3 className='mt-5 p-4 fs-2'> Get in Touch</h3>
                 <p>
                   Need advice or have questions? Contact us to schedule a discovery session with Fincart's Financial Planning Services. 
                   We'll assess your financial situation and create a plan just for you
@@ -28,13 +30,36 @@ export default function Contact() {
               </div>
 
               <div className='fbox'>
-
+                
+                <h3 className='text-white'  >Contact the Financial Planning Team</h3>
+                <div className='texts'>
+                  <input type="text" class="field" placeholder=' Enter your Name' />
+                  <input type="text" class="field" placeholder='Enter your Email' />
+                  <input type="text" class="field" placeholder='Enter Phone Number' />
                 </div>
-                 
+                <button >
+                  Send OTP
+                </button>
+
+              </div>  
+              </Col>
+              <Col lg={5}>
+                <img className='d-block w-100' style={{marginTop:"80px"}} src={kimage} alt='' />
               </Col>
             </Row>
           </div>
         </div>
+        
+        <div className='row-2'>
+          <Container>
+              
+            <Cards />
+              
+          </Container>
+          
+        </div>
+
+
         
     </div>
   )
