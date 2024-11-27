@@ -7,8 +7,9 @@ import About from './Components/About';
 import MutualFunds from './Components/MutualFunds';
 import Insurance from './Components/Insurance';
 import Contact from './Components/Contact';
+import Portfolio from './Components/Portfolio';
 
-// import Home from './Pages/Home';
+
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path='/about' element={<About/>}></Route>
         <Route path='/insurance' element={<Insurance/>}></Route>
         <Route path='/mutualfunds' element={<MutualFunds/>}></Route>
+        <Route path='/portfolio' element={<Portfolio/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
 
       </Routes>

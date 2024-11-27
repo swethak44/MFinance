@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.jpg';
-// import Home from './Pages/Home';
+
 
 export default function Menu() {
   return (
@@ -28,7 +28,7 @@ export default function Menu() {
                               <ul class="dropdown-menu">
                                   <li><a class="dropdown-item" href="insurance">Insurance</a></li>
                                   <li><a class="dropdown-item" href="/mutualfunds">MutualFunds</a></li>
-                                  <li><a class="dropdown-item" href="#">Shares</a></li>
+                                  <li><a class="dropdown-item" href="portfolio">Portfolio and Management Services</a></li>
                                   <li><a class="dropdown-item" href="#">Loans</a></li>
                               </ul>
                           </li>
@@ -40,7 +40,7 @@ export default function Menu() {
                   </div>
               </div>
           </nav>
-          {/* <Home /> */}
+         
       </div>
   )
 }

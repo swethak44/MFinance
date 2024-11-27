@@ -5,7 +5,7 @@ export default function Cards() {
   return (
     <div>
         <div>
-            <h1 className="mt-5 p-4" style={{textAlign:"center"}}>Our Services</h1>
+            <h1 className="mt-5 p-4 text-white" style={{textAlign:"center"}}>Our Services</h1>
         </div>
         <div className="services">
             <div className='card'>

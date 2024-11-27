@@ -10,7 +10,7 @@ export default function Contact() {
         <div className='background'>
             <div class='text'>
                 <h1>Contact Us</h1>
-                <p className='fs-5 p-3'>
+                <p className='fs-5 p-3 text-black'>
                     At Fincart, we believe every financial journey is unique. Our certified financial advisor are<br/>
                     here to help you with risk analysis, investment planning, and achieving your financial goals.
                 </p>
@@ -23,9 +23,9 @@ export default function Contact() {
               <Col lg={7}>
               <div className='tbox'>
                 <h3 className='mt-5 p-4 fs-2'> Get in Touch</h3>
-                <p>
+                <p className='text-black'>
                   Need advice or have questions? Contact us to schedule a discovery session with Fincart's Financial Planning Services. 
-                  We'll assess your financial situation and create a plan just for you
+                  We'll assess your financial situation and create a plan just for you.
                 </p>
               </div>
 
