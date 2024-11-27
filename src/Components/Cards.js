@@ -1,7 +1,7 @@
 import React from 'react';
 import './cards.css';
 
-export default function Services() {
+export default function Cards() {
   return (
     <div>
         <div>
