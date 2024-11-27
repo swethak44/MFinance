@@ -30,5 +30,17 @@ h1{
 .box-row{
     
     background-color: #DBF3FA;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    padding: 0px 20px 20px 20px; 
+   
+}
+.box-row h2{
+    padding: 20px;
+}
+
+.box-row p{
+    text-align: left;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
 }

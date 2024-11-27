@@ -1,4 +1,4 @@
-.image{
+.bimg{
     min-height: 350px;
     display:flex;
     justify-content: center;
@@ -6,7 +6,7 @@
     position: relative;
     margin-top: 30px;
 }
-.image::before{
+.bimg::before{
     content: '';
     background-image: url('../Components/imgs/jimg.jpg');
     background-repeat: no-repeat;
